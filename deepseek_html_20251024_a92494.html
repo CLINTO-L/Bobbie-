@@ -1,0 +1,34 @@
+<!-- Document preview section -->
+<div class="document-viewer" style="margin-top: 40px;">
+    <h3 style="text-align: center; color: #B8860B; margin-bottom: 30px;">Preview Documents</h3>
+    
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+        <!-- CV Preview -->
+        <div class="doc-preview" style="text-align: center;">
+            <div style="background: #1a1a1a; padding: 20px; border-radius: 5px; margin-bottom: 15px;">
+                <div style="font-size: 4rem; margin-bottom: 15px;">📄</div>
+                <h4>Curriculum Vitae</h4>
+            </div>
+            <button onclick="viewDocument('cv')" class="btn" style="margin: 5px;">
+                👁️ View Online
+            </button>
+            <button onclick="downloadDocument('cv', 'pdf')" class="btn" style="margin: 5px;">
+                📥 Download PDF
+            </button>
+        </div>
+        
+        <!-- Letter Preview -->
+        <div class="doc-preview" style="text-align: center;">
+            <div style="background: #1a1a1a; padding: 20px; border-radius: 5px; margin-bottom: 15px;">
+                <div style="font-size: 4rem; margin-bottom: 15px;">✉️</div>
+                <h4>Application Letter</h4>
+            </div>
+            <button onclick="viewDocument('letter')" class="btn" style="margin: 5px;">
+                👁️ View Online
+            </button>
+            <button onclick="downloadDocument('letter', 'pdf')" class="btn" style="margin: 5px;">
+                📥 Download PDF
+            </button>
+        </div>
+    </div>
+</div>
